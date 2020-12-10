@@ -1,0 +1,5 @@
+<div *ngIf="filterContacts">
+  <div *ngFor="let contact of filterContacts" >
+    <app-card [contact]="contact" ></app-card>
+  </div>
+</div>
